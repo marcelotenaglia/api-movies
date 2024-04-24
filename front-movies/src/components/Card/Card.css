@@ -1,0 +1,30 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    text-align: center;
+}
+  
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+}
+  
+  .poster {
+    min-width: 30%;
+    max-height: 250px; 
+}
+
+.section {
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 20px;
+}
+
+.detail-button {
+  display: block;
+}
+
