@@ -1,21 +1,21 @@
 .cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px; 
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; 
+  text-align: center;
 }
   
 .card {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: grid;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: grid;
 }
-  
-  .poster {
-    min-width: 30%;
-    max-height: 250px; 
+
+.poster {
+  min-width: 30%;
+  max-height: 250px; 
 }
 
 .section {
@@ -26,5 +26,12 @@
 
 .detail-button {
   display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
